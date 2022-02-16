@@ -1,0 +1,9 @@
+graphql:
+  servlet:
+    mapping: /graphql
+    enable: true
+    corsEnable: true
+  playground:
+    mapping: /playground
+    endpoint: /graphql
+    enabled: true

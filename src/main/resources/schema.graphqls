@@ -1,0 +1,9 @@
+type Query {
+	hello: String!
+	people: [Person!]!
+}
+
+type Person {
+	id: Int!
+	name: String!
+}
